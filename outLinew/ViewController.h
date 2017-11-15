@@ -8,8 +8,10 @@
 
 #import <Cocoa/Cocoa.h>
 
-@interface ViewController : NSViewController
+@interface ViewController : NSViewController<NSOutlineViewDelegate,NSOutlineViewDataSource>
 
+
+@property (weak) IBOutlet NSOutlineView *outLineView;
 
 @end
 

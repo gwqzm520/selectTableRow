@@ -14,6 +14,8 @@
 		508080771F53DC3C005E9CA2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 508080751F53DC3C005E9CA2 /* Main.storyboard */; };
 		508080821F53DC3C005E9CA2 /* outLinewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 508080811F53DC3C005E9CA2 /* outLinewTests.m */; };
 		5080808D1F53DC3C005E9CA2 /* outLinewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5080808C1F53DC3C005E9CA2 /* outLinewUITests.m */; };
+		5080809D1F53E057005E9CA2 /* Custom.m in Sources */ = {isa = PBXBuildFile; fileRef = 5080809C1F53E057005E9CA2 /* Custom.m */; };
+		508080A81F542785005E9CA2 /* TableRowView.m in Sources */ = {isa = PBXBuildFile; fileRef = 508080A71F542785005E9CA2 /* TableRowView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,10 @@
 		508080881F53DC3C005E9CA2 /* outLinewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = outLinewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5080808C1F53DC3C005E9CA2 /* outLinewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = outLinewUITests.m; sourceTree = "<group>"; };
 		5080808E1F53DC3C005E9CA2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5080809B1F53E057005E9CA2 /* Custom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Custom.h; sourceTree = "<group>"; };
+		5080809C1F53E057005E9CA2 /* Custom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Custom.m; sourceTree = "<group>"; };
+		508080A61F542785005E9CA2 /* TableRowView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableRowView.h; sourceTree = "<group>"; };
+		508080A71F542785005E9CA2 /* TableRowView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableRowView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,7 +110,11 @@
 				508080701F53DC3C005E9CA2 /* ViewController.h */,
 				508080711F53DC3C005E9CA2 /* ViewController.m */,
 				508080731F53DC3C005E9CA2 /* Assets.xcassets */,
+				5080809B1F53E057005E9CA2 /* Custom.h */,
+				5080809C1F53E057005E9CA2 /* Custom.m */,
 				508080751F53DC3C005E9CA2 /* Main.storyboard */,
+				508080A61F542785005E9CA2 /* TableRowView.h */,
+				508080A71F542785005E9CA2 /* TableRowView.m */,
 				508080781F53DC3C005E9CA2 /* Info.plist */,
 				5080806D1F53DC3C005E9CA2 /* Supporting Files */,
 			);
@@ -271,6 +281,8 @@
 			files = (
 				508080721F53DC3C005E9CA2 /* ViewController.m in Sources */,
 				5080806F1F53DC3C005E9CA2 /* main.m in Sources */,
+				508080A81F542785005E9CA2 /* TableRowView.m in Sources */,
+				5080809D1F53E057005E9CA2 /* Custom.m in Sources */,
 				5080806C1F53DC3C005E9CA2 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -500,6 +512,7 @@
 				508080931F53DC3C005E9CA2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		508080941F53DC3C005E9CA2 /* Build configuration list for PBXNativeTarget "outLinewTests" */ = {
 			isa = XCConfigurationList;
@@ -508,6 +521,7 @@
 				508080961F53DC3C005E9CA2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		508080971F53DC3C005E9CA2 /* Build configuration list for PBXNativeTarget "outLinewUITests" */ = {
 			isa = XCConfigurationList;
@@ -516,6 +530,7 @@
 				508080991F53DC3C005E9CA2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
